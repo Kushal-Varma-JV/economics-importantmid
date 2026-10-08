@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tier 3 · 1–2 mark questions · II PUC Economics</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--tx:#1d2330;--mu:#5b6475;--ln:#e3e6ec;--ac:#2563eb;--acs:#e8efff;--r1:#dc2626;--r2:#ea7a0c;--r3:#d4a20a;--ok:#15803d;--warn:#b45309;--c1:#2563eb;--c2:#dc2626;--c3:#15803d;--c4:#9333ea}
+@media(prefers-color-scheme:dark){:root{--bg:#12151b;--card:#1b2029;--tx:#e6e9ef;--mu:#9aa3b2;--ln:#2c3340;--ac:#7aa2ff;--acs:#1f2a44;--c1:#7aa2ff;--c2:#ff7b7b;--c3:#5fd38a;--c4:#c39bff}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:0 12px 60px}
+header.top{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--ln)}
+.tabs{display:flex;gap:6px;padding:8px 12px 6px;max-width:780px;margin:0 auto}
+.tabs a{flex:1;text-align:center;padding:7px 4px;border-radius:10px;text-decoration:none;color:var(--tx);background:var(--card);border:1px solid var(--ln);font-size:14px;font-weight:600;line-height:1.2}
+.tabs a small{display:block;color:var(--mu);font-size:11px;font-weight:400}
+.tabs a.on{background:var(--ac);color:#fff;border-color:var(--ac)}.tabs a.on small{color:#e6edff}
+.chips{display:flex;gap:6px;overflow-x:auto;padding:0 12px 8px;max-width:780px;margin:0 auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{white-space:nowrap;font-size:13px;padding:4px 10px;border-radius:99px;background:var(--acs);color:var(--ac);text-decoration:none}
+h1{font-size:21px;margin:16px 0 4px}.intro{color:var(--mu);font-size:14px;margin:0 0 6px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0 4px;font-size:13px;color:var(--mu)}
+.bar button{font:inherit;padding:6px 12px;border-radius:8px;border:1px solid var(--ln);background:var(--card);color:var(--tx);cursor:pointer}
+.lg i{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px;vertical-align:-1px}
+.d1{background:var(--r1)}.d2{background:var(--r2)}.d3{background:var(--r3)}
+section{scroll-margin-top:100px;counter-reset:q;margin-top:24px}
+h2{font-size:17px;margin:0 0 8px;padding-left:10px;border-left:4px solid var(--ac);line-height:1.3}
+h2 small{display:block;color:var(--mu);font-weight:400;font-size:13px}
+.q{background:var(--card);border:1px solid var(--ln);border-left:5px solid var(--r3);border-radius:12px;margin:0 0 10px;counter-increment:q}
+.q.p1{border-left-color:var(--r1)}.q.p2{border-left-color:var(--r2)}
+summary{list-style:none;cursor:pointer;padding:12px 40px 10px 14px;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"";position:absolute;right:16px;top:18px;width:8px;height:8px;border-right:2px solid var(--mu);border-bottom:2px solid var(--mu);transform:rotate(45deg);transition:.2s}
+.q[open]>summary::after{transform:rotate(225deg);top:22px}
+.qt{display:block;font-weight:600}.qt::before{content:counter(q)". ";color:var(--mu)}
+.opt{display:block;font-size:14px;color:var(--mu);margin-top:4px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px;font-size:12px;color:var(--mu)}
+.mk{background:var(--acs);color:var(--ac);padding:1px 7px;border-radius:6px;font-weight:700}
+.ans{padding:2px 14px 14px;border-top:1px dashed var(--ln)}
+.ans p,.ans li{margin:.45em 0}.ans ul,.ans ol{padding-left:20px}
+.lbl{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 7px;border-radius:5px;margin-top:12px}
+.key{background:#dcfce7;color:#166534}.txt{background:#e0e7ff;color:#3730a3}
+@media(prefers-color-scheme:dark){.key{background:#14361f;color:#86efac}.txt{background:#262b55;color:#c7d2fe}}
+.also{font-size:13px;color:var(--mu);background:var(--bg);border-radius:8px;padding:6px 10px;margin-top:10px}
+.warn{font-size:13px;border-left:3px solid var(--warn);padding:4px 10px;background:var(--bg)}
+.tip{font-size:14px;border-left:3px solid var(--ok);padding:4px 10px;background:var(--bg)}
+.tw{overflow-x:auto;margin:8px 0}
+table{border-collapse:collapse;font-size:14px;min-width:100%}
+th,td{border:1px solid var(--ln);padding:5px 8px;text-align:left;vertical-align:top}th{background:var(--bg)}
+figure{margin:12px 0;text-align:center}figure svg{width:100%;max-width:420px;height:auto}
+figcaption{font-size:12px;color:var(--mu);margin-top:2px}
+svg text{fill:currentColor;font-size:12px;font-family:inherit}
+.ax{stroke:currentColor;stroke-width:1.5;fill:none}.cv{fill:none;stroke-width:2.2;stroke-linejoin:round}
+.b1{stroke:var(--c1)}.b2{stroke:var(--c2)}.b3{stroke:var(--c3)}.b4{stroke:var(--c4)}
+.f1{fill:var(--c1)}.f2{fill:var(--c2)}
+.dl{stroke:var(--mu);stroke-dasharray:4 3;stroke-width:1;fill:none}
+.ar{stroke:var(--mu);stroke-width:1.5;fill:none;marker-end:url(#ah)}.mf{fill:var(--mu)}
+.empty{color:var(--mu);font-size:14px;background:var(--card);border:1px dashed var(--ln);border-radius:12px;padding:10px 14px}
+.next{display:block;text-align:center;margin:28px 0 0;padding:12px;border-radius:12px;background:var(--ac);color:#fff;text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" class="mf"/></marker></defs></svg>
+<header class="top">
+<nav class="tabs"><a href="index.html">Tier 1<small>5–6 marks</small></a><a href="2.html">Tier 2<small>4 marks</small></a><a class="on" href="3.html">Tier 3<small>1–2 marks</small></a></nav>
+<nav class="chips"><a href="#c3">Ch 3 Production &amp; Costs</a><a href="#c4">Ch 4 Firm</a><a href="#c5">Ch 5 Equilibrium</a><a href="#c2">Ch 2 Consumer</a><a href="#c1">Ch 1 Intro</a><a href="#m1">Macro Ch 1</a></nav>
+</header>
+<main class="wrap">
+<h1>Tier 3 · 1- and 2-mark questions</h1>
+<p class="intro">Short questions that keep coming back (Part A 1-mark questions and the 2-mark slots, usually Q17–Q22). Tap a question to see its answer.</p>
+<p class="intro">E = board exam, MQP = model paper, QB = question bank. <b>Green label</b> = board answer key. <b>Blue label</b> = written from the NCERT textbook.</p>
+<div class="bar"><button onclick="setAll(true)">Expand all</button><button onclick="setAll(false)">Collapse all</button><span class="lg">Asked:<i class="d1"></i>4+ times<i class="d2"></i>3 times<i class="d3"></i>2 times</span></div>
+
+<!-- ============ CH 3 ============ -->
+<section id="c3">
+<h2>Micro Ch 3 · Production and Costs<small>2-mark slot: usually Q19</small></h2>
+
+<details class="q p2" id="T3-C3-01"><summary><span class="qt">Mention the types of Returns to scale.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q19), MQP24-1 (Q18), MQP-5 (Q19)<br><b>Also asked as:</b> "State the types of Returns to scale." (MQP-5)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<ol><li>Increasing Returns to Scale [IRS]</li><li>Constant Returns to Scale [CRS]</li><li>Decreasing Returns to Scale [DRS]</li></ol>
+<span class="lbl txt">Meaning of each · NCERT</span>
+<ul><li><b>CRS:</b> a proportional increase in all inputs increases output by the <b>same</b> proportion.</li>
+<li><b>IRS:</b> a proportional increase in all inputs increases output by a <b>larger</b> proportion.</li>
+<li><b>DRS:</b> a proportional increase in all inputs increases output by a <b>smaller</b> proportion.</li></ul>
+<p class="tip">Example: if all inputs are doubled and output exactly doubles, it is CRS. If output more than doubles, it is IRS. If output less than doubles, it is DRS.</p>
+</div></details>
+
+<details class="q p3" id="T3-C3-02"><summary><span class="qt">What are long run costs?</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q19), MQP-3 (Q19)<br><b>Also covers:</b> "What is Long run Average Cost? Write its formula." (2 marks, MQP-4), the "LRAC" match item (MQP24-1) and "Explain the long run costs." (4 marks, MQP24-3)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>(a) Long-run Average Cost [LAC or LRAC]<br>(b) Long-run Marginal Cost [LMC or LRMC]</p>
+<span class="lbl txt">Meaning and formulas · NCERT</span>
+<ul><li>In the long run all inputs are variable, so there are <b>no fixed costs</b>. Total cost and total variable cost are the same.</li>
+<li><b>Long run average cost (LRAC)</b> is the cost per unit of output: <b>LRAC = TC ÷ q</b></li>
+<li><b>Long run marginal cost (LRMC)</b> is the change in total cost per unit change in output: <b>LRMC = TC at q<sub>1</sub> units − TC at (q<sub>1</sub> − 1) units</b></li>
+<li>Both curves are U-shaped. LRMC cuts LRAC from below at the minimum point of LRAC. The falling part of LRAC shows IRS, the minimum point shows CRS and the rising part shows DRS.</li></ul>
+</div></details>
+
+<details class="q p3" id="T3-C3-03"><summary><span class="qt">Give the meaning of Short-run and Long-run.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q20), MQP-2 (Q19)<br><b>Also asked as:</b> "Give the meaning of short-run and long-run concepts." (MQP-2)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p><b>Short run:</b> In the short run, at least one of the factors (labour or capital) cannot be varied, and therefore remains fixed. In order to vary the output level, the firm can vary only the other factor.</p>
+<p><b>Long run:</b> In the long run, all factors of production can be varied. A firm, in order to produce different levels of output in the long run, may vary both the inputs simultaneously. So, in the long run, there is no fixed factor.</p>
+<p class="tip">NCERT adds: short run and long run are not defined in days, months or years. A period is long run or short run depending only on whether all inputs can be varied.</p>
+</div></details>
+
+<details class="q p3" id="T3-C3-04"><summary><span class="qt">Name any two short run costs.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q19), MQP-1 (Q19)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p>The short run costs are: Total Fixed Cost, Total Variable Cost, Average Fixed Cost, Average Variable Cost, Total Cost, Average Cost and Marginal Cost. (Any two)</p>
+<p class="tip">Useful links (NCERT): TC = TFC + TVC, and SAC = AVC + AFC.</p>
+</div></details>
+
+<details class="q p2" id="T3-C3-05"><summary><span class="qt">Find the Total Cost, where TFC is Rs. 200 and TVC is Rs. 225.</span><span class="opt">a) 125 &nbsp; b) 225 &nbsp; c) 425 &nbsp; d) 25</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 3× · 2 board exams · same numbers every time</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q2), E26-2 (Q2), MQP-2 (Q1)</p>
+<span class="lbl key">Board answer key · E26-1, E26-2</span>
+<p><b>c) 425</b></p>
+<p class="tip">TC = TFC + TVC = 200 + 225 = 425</p>
+</div></details>
+
+<details class="q p2" id="T3-C3-06"><summary><span class="qt">_________ is the set of all possible combinations of two inputs that yield the same maximum possible level of output.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 3× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q7), E25-3 (Q7), MQP-3 (Q6)<br><b>Also covers:</b> "What is Isoquant?" (2 marks, MQP24-2)</p>
+<span class="lbl key">Board answer key · E26-1, E25-3</span>
+<p><b>Isoquant</b></p>
+<span class="lbl txt">2-mark version · NCERT</span>
+<p>An isoquant is the set of all possible combinations of the two inputs (labour and capital) that yield the same maximum possible level of output. Each isoquant represents a particular level of output and is labelled with that amount. Isoquants slope downward: to produce the same output with more of one input, less of the other is needed.</p>
+<p class="tip">NCERT example (Table 3.1): 10 units of output can be produced with (4L, 1K), (2L, 2K) or (1L, 4K). All three lie on the isoquant q = 10.</p>
+</div></details>
+
+<details class="q p3" id="T3-C3-07"><summary><span class="qt">Name the Returns to scale when the output increases by more than 10% for a 10% increase in the inputs.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q13), MQP-2 (Q13)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p><b>Increasing Returns to Scale [IRS]</b></p>
+</div></details>
+
+<details class="q p3" id="T3-C3-08"><summary><span class="qt">Cobb-Douglas production function is</span><span class="opt">a) q = (x, x) &nbsp; b) q = (x₁, x₂) &nbsp; c) q = (x₁ᵅ, x₂ᵝ) &nbsp; d) q = (x₀, x₁)</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q2), MQP-1 (Q2)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p><b>c) q = (x₁ᵅ, x₂ᵝ)</b></p>
+<p class="warn">⚠️ The paper prints the option with brackets and a comma. The correct NCERT form is <b>q = x₁ᵅ x₂ᵝ</b> (the two terms are multiplied). Choose option c.</p>
+<p class="tip">NCERT: if α + β = 1 it shows CRS, if α + β &gt; 1 it shows IRS, and if α + β &lt; 1 it shows DRS.</p>
+</div></details>
+
+<details class="q p2" id="T3-C3-09"><summary><span class="qt">Cost and product abbreviations (match the following)</span><span class="opt">SAC · SMC · TFC+TVC · LRAC · MPL · CRS</span><span class="meta"><b class="mk">1 mark each</b><span>One item in each of 6 model papers</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-5 (Q11a), MQP24-2 (Q11b), MQP24-3 (Q11a), MQP24-1 (Q11b), MQP-3 (Q11b), MQP-4 (Q11b). Each item appeared once, but one of them comes up in almost every model paper.</p>
+<span class="lbl txt">Answers · NCERT</span>
+<div class="tw"><table><tr><th>Item</th><th>Asked in</th><th>Full form / formula</th></tr>
+<tr><td>SAC</td><td>MQP-5</td><td>Short run Average Cost = TC ÷ q</td></tr>
+<tr><td>SMC</td><td>MQP24-2</td><td>Short run Marginal Cost = ΔTC ÷ Δq</td></tr>
+<tr><td>TFC + TVC</td><td>MQP24-3</td><td>= TC (Total Cost)</td></tr>
+<tr><td>LRAC</td><td>MQP24-1</td><td>Long Run Average Cost = TC ÷ q</td></tr>
+<tr><td>MPL</td><td>MQP-3</td><td>Marginal Product of Labour = ΔTP ÷ ΔL (or TP at L − TP at L−1)</td></tr>
+<tr><td>CRS</td><td>MQP-4</td><td>Constant Returns to Scale: output rises in the same proportion as all inputs</td></tr></table></div>
+</div></details>
+</section>
+
+<!-- ============ CH 4 ============ -->
+<section id="c4">
+<h2>Micro Ch 4 · Theory of the Firm under Perfect Competition<small>2-mark slots: usually Q20–Q21</small></h2>
+
+<details class="q p2" id="T3-C4-01"><summary><span class="qt">State the conditions needed for profit maximization by a firm under perfect competition.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q20), E26-2 (Q20), MQP-2 (Q20)<br><b>Also covers:</b> the one-off longer versions: "Write about the third condition of profit maximization of the firm under perfect competition with the help of diagrams." (4 marks, MQP-5) and "Write a short note on profit maximization of a firm under the following conditions a) P=MC b) MC must be none decreasing at q0" (6 marks, E25-3)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<ol><li>The price P must be equal to MC (P = MC).</li>
+<li>Marginal cost must be non-decreasing at q<sub>0</sub>.</li>
+<li>In the short run, price must be greater than or equal to the average variable cost (P ≥ AVC), and in the long run, price must be greater than or equal to the average cost (P ≥ AC).</li></ol>
+<p class="tip">Why P = MC (NCERT): profit is highest where MR = MC. For a perfectly competitive firm MR = P, so the condition becomes P = MC.</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-02"><summary><span class="qt">Write the meaning of opportunity cost with example.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q21), MQP24-3 (Q20), MQP-2 (Q21)<br><b>Also covers:</b> "______________ cost of some activity is the gain foregone from the second best activity." (1 mark, MQP-3)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p>Opportunity cost is the cost of the next best alternative foregone.</p>
+<p>Ex: Suppose a person has Rs. 1000 which she decides to invest in the family business. If she deposits the same in the bank, she can get an interest rate of 10%. But this opportunity will be foregone once she invests the money in the family business.</p>
+<span class="lbl txt">Fill-in-the-blank version · NCERT</span>
+<p>Answer: <b>Opportunity</b> ("Opportunity cost of some activity is the gain foregone from the second best activity.")</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-03"><summary><span class="qt">Give the meaning of shut down point.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q21), MQP24-3 (Q19), MQP-1 (Q20)<br><b>Also covers:</b> "The minimum point of AVC where the SMC curve cuts the AVC curve is called ___________." (1 mark, E26-2 Q7)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>In the short run, the minimum point of the AVC is the last price and output combination, where the SMC curve cuts the AVC curve at this minimum point. In the long run, the LRMC curve cuts the LRAC curve at its minimum point. This is called the shut down point because there is no production below this point.</p>
+<span class="lbl key">Fill-in-the-blank version · E26-2 key</span>
+<p>Answer: <b>Shutdown point</b></p>
+</div></details>
+
+<details class="q p2" id="T3-C4-04"><summary><span class="qt">Find out the Market supply when the supply curves of two producers are S1(p) = p − 15 and S2(p) = p − 20 respectively.</span><span class="opt">Numbers change between papers.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-1 (Q21), MQP-4 (Q20), MQP-5 (Q21)</p>
+<span class="lbl txt">Worked out · NCERT method (Section 4.6)</span>
+<p><b>Idea:</b> market supply at any price is the sum of the supplies of all the firms at that price: S<sub>m</sub>(p) = S<sub>1</sub>(p) + S<sub>2</sub>(p). A firm supplies zero when its formula gives a negative number.</p>
+<div class="tw"><table><tr><th>Version</th><th>S1(p)</th><th>S2(p)</th><th>Market supply (both firms producing)</th></tr>
+<tr><td>MQP-1</td><td>p − 15</td><td>p − 20</td><td><b>2p − 35</b> (for p ≥ 20)</td></tr>
+<tr><td>MQP-4</td><td>p − 10</td><td>p − 15</td><td><b>2p − 25</b> (for p ≥ 15)</td></tr>
+<tr><td>MQP-5</td><td>p − 20</td><td>p − 25</td><td><b>2p − 45</b> (for p ≥ 25)</td></tr>
+<tr><td>QB</td><td>p − 20</td><td>p − 10</td><td><b>2p − 30</b> (for p ≥ 20)</td></tr></table></div>
+<p><b>Full written answer (MQP-1):</b><br>S<sub>m</sub>(p) = S<sub>1</sub>(p) + S<sub>2</sub>(p) = (p − 15) + (p − 20) = <b>2p − 35</b><br>In full: S<sub>m</sub>(p) = 0 when p &lt; 15; = p − 15 when 15 ≤ p &lt; 20 (only firm 1 produces); = 2p − 35 when p ≥ 20.</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-05"><summary><span class="qt">Mention the two determinants of a firm's supply curve.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-3 (Q20), MQP-5 (Q20), MQP24-1 (Q19)<br><b>Full answer:</b> Tier 2, T2-C4-01 (4 marks)</p>
+<span class="lbl key">Board answer key · points from E26-1 (4-mark version)</span>
+<p>a) Technological progress<br>b) Input prices</p>
+<p class="tip">Technological progress shifts the supply curve to the right. A rise in input prices shifts it to the left.</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-06"><summary><span class="qt">Give the meaning of price elasticity of supply and write its formula.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-3 (Q21), MQP-4 (Q21), MQP24-1 (Q20)</p>
+<span class="lbl txt">Meaning · NCERT</span>
+<p>The price elasticity of supply of a good measures the responsiveness of quantity supplied to changes in the price of the good.</p>
+<span class="lbl key">Formula · E26-2 key (from T2-C4-03)</span>
+<p>e<sub>s</sub> = Percentage change in quantity supplied ÷ Percentage change in price<br>or e<sub>s</sub> = (ΔQ/ΔP) × (P/Q)</p>
+<p class="tip">A vertical supply curve has e<sub>s</sub> = 0. A rising supply curve has positive e<sub>s</sub>.</p>
+</div></details>
+
+<details class="q p1" id="T3-C4-07"><summary><span class="qt">π = </span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 4× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q11b), E25-2 (Q11a), MQP24-3 (Q11b), MQP-1 (Q11b)<br><b>Also covers:</b> "A firm's profit is denoted by a) ∑ b) Δ c) ∅ d) π" (1 mark, MQP-2)</p>
+<span class="lbl key">Board answer key · E26-1, E25-2</span>
+<p><b>TR − TC</b></p>
+<p class="tip">MCQ version: <b>d) π</b>. NCERT: "It is a convention in economics to denote profit with the Greek letter π."</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-08"><summary><span class="qt">Price taking behaviour is the distinguishing characteristic of _________ market.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q8), MQP24-1 (Q8), MQP-5 (Q7)<br><b>Also asked as:</b> "Price taking behavior is the single most distinguishing characteristic of ________market." (MQP24-1)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p><b>Perfect competition</b></p>
+</div></details>
+
+<details class="q p2" id="T3-C4-09"><summary><span class="qt">To which side does a supply curve shift due to the technological progress?</span><span class="meta"><b class="mk">1 mark</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q13), MQP24-2 (Q13), MQP-4 (Q13)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>Due to technological progress, a supply curve shifts towards the <b>right</b> side.</p>
+</div></details>
+
+<details class="q p2" id="T3-C4-10"><summary><span class="qt">AR = </span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 3× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q11b), E25-3 (Q11b), MQP-5 (Q14)<br><b>Also asked as:</b> "Write the formula to calculate Average Revenue." (MQP-5)</p>
+<span class="lbl key">Board answer key · E26-2, E25-3</span>
+<p><b>TR/Q</b></p>
+<p class="tip">NCERT: for a price-taking firm, AR = (p × q) ÷ q = p, so average revenue equals the market price.</p>
+</div></details>
+
+<details class="q p3" id="T3-C4-11"><summary><span class="qt">Define Marginal Revenue.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-2 (Q14), MQP-4 (Q11c, match "MR=")</p>
+<span class="lbl key">Board answer key · E25-2 Part F</span>
+<p>Marginal Revenue is defined as the additional revenue earned by the sale of an additional unit. MR = ΔTR/Δq or MR = TR<sub>n</sub> − TR<sub>n−1</sub></p>
+<p class="warn">⚠️ The English key prints "MPL = TRn – TRn-1". It should say MR, as in the Kannada key.</p>
+</div></details>
+
+<details class="q p3" id="T3-C4-12"><summary><span class="qt">What is Supply?</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q13), MQP-1 (Q13)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>A firm's supply is the quantity that it chooses to sell at a given price, given technology and given the prices of factors of production.</p>
+</div></details>
+
+<details class="q p3" id="T3-C4-13"><summary><span class="qt">Give the meaning of super normal profit.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q14), MQP-3 (Q13)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p>The profit a firm earns over and above the normal profit is called super normal profit.</p>
+</div></details>
+
+<details class="q p3" id="T3-C4-14"><summary><span class="qt">Normal profit</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP24-1 (Q11c), MQP-5 (Q11b)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<p>The <b>minimum level of profit needed to keep a firm in the existing business</b>.</p>
+<p class="tip">NCERT adds: normal profit is part of the firm's total cost. It can be thought of as the opportunity cost of entrepreneurship.</p>
+</div></details>
+</section>
+
+<!-- ============ CH 5 ============ -->
+<section id="c5">
+<h2>Micro Ch 5 · Market Equilibrium<small>2-mark slots: usually Q20–Q21</small></h2>
+
+<details class="q p3" id="T3-C5-01"><summary><span class="qt">How wage is determined in the Labour market?</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q21), MQP24-2 (Q20)<br><b>Also covers:</b> "_______ is determined at the point where the demand for labour and supply of labour curves intersect." (1 mark, MQP-1)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>With an upward sloping supply curve and a downward sloping demand curve, the equilibrium wage rate is determined at the point where these two curves intersect.</p>
+<figure><svg viewBox="0 0 310 225" role="img" aria-label="Wage determination in the labour market">
+<path class="ax" d="M40 10V200H300"/>
+<path class="cv b1" d="M60 40L280 190"/><path class="cv b3" d="M60 190L280 40"/>
+<path class="dl" d="M40 115H170V200"/>
+<circle cx="170" cy="115" r="3.5"/>
+<text x="34" y="119" text-anchor="end">w*</text><text x="170" y="214" text-anchor="middle">l*</text>
+<text x="284" y="194">D<tspan font-size="9">L</tspan></text><text x="284" y="44">S<tspan font-size="9">L</tspan></text>
+<text x="4" y="12">Wage</text><text x="300" y="222" text-anchor="end">Labour (in hrs)</text>
+</svg><figcaption>The wage rate w* is set where labour demand (D<sub>L</sub>, from firms) meets labour supply (S<sub>L</sub>, from households).</figcaption></figure>
+<span class="lbl txt">Fill-in-the-blank version · NCERT</span>
+<p>Answer: <b>Wage rate</b>. Households supply labour and firms demand it. Labour means hours of work, not the number of workers.</p>
+</div></details>
+
+<details class="q p3" id="T3-C5-02"><summary><span class="qt">Define equilibrium price and quantity.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q20), MQP24-3 (Q21)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<ul><li><b>Equilibrium price</b> is the price at which equilibrium is reached in the market.</li>
+<li><b>Equilibrium quantity</b> is the quantity which is bought and sold at the equilibrium price.</li></ul>
+<p class="tip">NCERT: at equilibrium, market demand = market supply, so q<sup>D</sup>(p*) = q<sup>S</sup>(p*).</p>
+</div></details>
+
+<details class="q p1" id="T3-C5-03"><summary><span class="qt">Adam Smith</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 4× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q11c), E25-2 (Q11b), MQP24-3 (Q11d), MQP-5 (Q11c)<br><b>Also covers:</b> "It is assumed that, in a perfectly competitive market _________is at play." (1 mark, MQP24-2)</p>
+<span class="lbl key">Board answer key · E26-1, E25-2</span>
+<p><b>Operation of invisible hand</b></p>
+<span class="lbl txt">Fill-in-the-blank version · NCERT</span>
+<p>Answer: <b>Invisible Hand</b>. It raises prices when there is excess demand and lowers them when there is excess supply.</p>
+</div></details>
+
+<details class="q p2" id="T3-C5-04"><summary><span class="qt">In labour market, __________ are the suppliers of labour.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q8), MQP24-3 (Q7), MQP-4 (Q8)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p><b>Households</b> (in MQP24-3, the word list says "Families")</p>
+<p class="tip">NCERT: in the labour market, households supply labour and firms demand it. In the goods market it is the opposite.</p>
+</div></details>
+
+<details class="q p3" id="T3-C5-05"><summary><span class="qt">Through which legislation, the government ensures that the wage rate of the labourers does not fall below a particular level?</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q13), MQP24-2 (Q14)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p><b>Minimum Wage Legislation (Minimum Wages Act)</b></p>
+</div></details>
+
+<details class="q p3" id="T3-C5-06"><summary><span class="qt">Possibility of super normal profit</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q11c), MQP-2 (Q11c)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p><b>Attraction of new firms</b></p>
+<p class="tip">NCERT: new firms enter, the market supply curve shifts right, and the price falls until every firm earns only normal profit.</p>
+</div></details>
+
+<details class="q p3" id="T3-C5-07"><summary><span class="qt">Price ceiling and price floor (one-liners)</span><span class="opt">"What is price ceiling?" (MQP24-3)<br>"The government imposing lower limit on the price of goods and services is called a) Minimum price b) Maximum price c) Equilibrium price d) Price floor" (E25-2)</span><span class="meta"><b class="mk">1 mark each</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP24-3 (Q13), E25-2 (Q3)<br><b>Full answers:</b> Tier 2, T2-C5-02 and T2-C5-03</p>
+<span class="lbl key">Board answer keys · E25-3 (ceiling), E25-2 (floor)</span>
+<p><b>Price ceiling:</b> A price ceiling is an upper limit imposed by the government on the price of a good or service.</p>
+<p><b>MCQ:</b> d) Price floor</p>
+</div></details>
+</section>
+
+<!-- ============ CH 2 ============ -->
+<section id="c2">
+<h2>Micro Ch 2 · Theory of Consumer Behaviour<small>2-mark slot: usually Q18</small></h2>
+
+<details class="q p2" id="T3-C2-01"><summary><span class="qt">Mention two approaches which explain consumer behaviour.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q18), MQP24-3 (Q18), MQP-3 (Q18)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>a) Cardinal utility analysis<br>b) Ordinal utility analysis</p>
+<p class="tip">NCERT: cardinal analysis measures utility in numbers. Ordinal analysis only ranks bundles.</p>
+</div></details>
+
+<details class="q p2" id="T3-C2-02"><summary><span class="qt">What is monotonic preference?</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q18), MQP24-1 (Q17), MQP-2 (Q18)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p>Monotonic preferences imply that between any two indifference curves, the bundles on the one which lies above are preferred to the bundles on the one which lies below.</p>
+<p>Here the consumer will not remain indifferent between two combinations of commodities when he has an opportunity to have more quantity in one combination than the other.</p>
+<span class="lbl txt">Definition · NCERT</span>
+<p>A consumer's preferences are monotonic if, between any two bundles, she prefers the bundle that has more of at least one of the goods and no less of the other good. Example: (10, 10) is preferred to (10, 9).</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-03"><summary><span class="qt">State the Law of Demand.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q18), MQP24-3 (Q17)<br><b>Also covers:</b> "The demand for a good moves in the ___________direction of its price." (1 mark, MQP-2)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p>Other things remaining constant, when the price of a good increases, its demand decreases, and when the price of a good decreases, its demand increases. Or: it explains the negative relationship between price and demand.</p>
+<span class="lbl txt">Fill-in-the-blank version · NCERT</span>
+<p>Answer: <b>opposite</b> ("The demand for a good moves in the opposite direction of its price.")</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-04"><summary><span class="qt">What do you mean by Price Elasticity of demand? Write its formula.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q19), MQP24-2 (Q18)<br><b>Also asked as:</b> "Define price elasticity of demand." (MQP24-2)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>Price elasticity of demand is a measure of the responsiveness of the demand for a good to changes in its price.</p>
+<p>Price elasticity of demand = percentage change in demand for the good ÷ percentage change in its price<br>or e<sub>D</sub> = (Δq/Δp) × (p/q)</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-05"><summary><span class="qt">List out the determinants of demand.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q18), MQP-1 (Q18)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>A. Price of the good<br>B. Price of other goods<br>C. Income of the consumer<br>D. Tastes and preferences of the consumer</p>
+</div></details>
+
+<details class="q p2" id="T3-C2-06"><summary><span class="qt">Ordinal utility analysis expresses utility in</span><span class="opt">a) Numbers &nbsp; b) Returns &nbsp; c) Ranks &nbsp; d) Ratios</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q1), MQP24-1 (Q2), MQP-1 (Q1)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p><b>c) Ranks</b></p>
+</div></details>
+
+<details class="q p2" id="T3-C2-07"><summary><span class="qt">Wants satisfying capacity of a commodity is ……………….</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q6), MQP24-2 (Q6), MQP-1 (Q7)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p><b>Utility</b></p>
+</div></details>
+
+<details class="q p2" id="T3-C2-08"><summary><span class="qt">Unitary elasticity of demand</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q11a), MQP24-1 (Q11a), MQP-2 (Q11b)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p><b>|e<sub>D</sub>| = 1</b></p>
+</div></details>
+
+<details class="q p3" id="T3-C2-09"><summary><span class="qt">MRS – Expand.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q12), MQP24-3 (Q12)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p><b>Marginal Rate of Substitution</b></p>
+</div></details>
+
+<details class="q p3" id="T3-C2-10"><summary><span class="qt">What is demand?</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q12), MQP24-1 (Q13)</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>The quantity of a commodity that a consumer is willing to buy and is able to afford, given prices of goods, is called demand for the commodity.</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-11"><summary><span class="qt">Linear demand curve</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q11a), MQP-3 (Q11a, printed "Liner demand curve")</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p><b>d(p) = a − bp</b></p>
+</div></details>
+
+<details class="q p3" id="T3-C2-12"><summary><span class="qt">Suppose, to a consumer 2 oranges give 22 units of total utility and 3 oranges give 25 units of total utility, calculate the marginal utility.</span><span class="opt">Numbers change between papers.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-2 (Q12), MQP-5 (Q12)<br><b>Also covers:</b> "When TU is constant MU becomes a) Zero b) Maximum c) Negative d) Positive" (1 mark, MQP-3)</p>
+<span class="lbl txt">Worked out · NCERT formula MU<sub>n</sub> = TU<sub>n</sub> − TU<sub>n−1</sub></span>
+<div class="tw"><table><tr><th>Version</th><th>Given</th><th>Working</th><th>MU</th></tr>
+<tr><td>MQP-2</td><td>2 oranges → 22, 3 oranges → 25</td><td>MU<sub>3</sub> = 25 − 22</td><td><b>3 units</b></td></tr>
+<tr><td>MQP-5</td><td>4 oranges → 24, 5 oranges → 24</td><td>MU<sub>5</sub> = 24 − 24</td><td><b>0</b></td></tr>
+<tr><td>QB</td><td>4 oranges → 28, 5 oranges → 30</td><td>MU<sub>5</sub> = 30 − 28</td><td><b>2 units</b></td></tr></table></div>
+<p class="tip">MCQ version: <b>a) Zero</b>. NCERT: "MU becomes zero at a level when TU remains constant."</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-13"><summary><span class="qt">Indifference Map</span><span class="meta"><b class="mk">1 mark · Match</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP24-2 (Q11a), MQP-4 (Q11a, printed "Indifference")<br><b>Full answer:</b> Tier 2, T2-C2-05</p>
+<span class="lbl key">Board answer key · meaning from E25-2</span>
+<p><b>A family of indifference curves</b> (E25-2 key: "Family or group of Indifference curves is called Indifference Map.")</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-14"><summary><span class="qt">Elasticity along a linear demand curve</span><span class="opt">"At the midpoint of the demand curve, the elasticity is a) Equal to one b) Less than one c) More than one d) Equal to zero" (MQP-4)<br>"The value of Elasticity of demand at different points on a linear demand curve lies between a) 0 and ∞ b) 1 and 10 c) 10 and 100 d) 5 and 10" (MQP-5)</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-4 (Q1), MQP-5 (Q2)<br><b>Also covers:</b> "Analyse the points of elasticity along a linear demand curve." (6 marks, MQP-1)</p>
+<span class="lbl txt">Answers · NCERT</span>
+<p><b>MQP-4:</b> a) Equal to one<br><b>MQP-5:</b> a) 0 and ∞</p>
+<figure><svg viewBox="0 0 310 225" role="img" aria-label="Elasticity at different points on a linear demand curve">
+<path class="ax" d="M40 10V200H300"/>
+<path class="cv b1" d="M40 30L280 200"/>
+<path class="dl" d="M40 115H160V200"/>
+<circle cx="160" cy="115" r="3.5"/>
+<text x="48" y="24">|e<tspan font-size="9">D</tspan>| = ∞</text>
+<text x="104" y="70">|e<tspan font-size="9">D</tspan>| &gt; 1</text>
+<text x="168" y="110">|e<tspan font-size="9">D</tspan>| = 1</text>
+<text x="220" y="150">|e<tspan font-size="9">D</tspan>| &lt; 1</text>
+<text x="244" y="190">|e<tspan font-size="9">D</tspan>| = 0</text>
+<text x="34" y="34" text-anchor="end">a/b</text><text x="34" y="119" text-anchor="end">a/2b</text>
+<text x="160" y="214" text-anchor="middle">a/2</text><text x="280" y="214" text-anchor="middle">a</text>
+<text x="4" y="12">Price</text><text x="300" y="222" text-anchor="end">Quantity</text>
+</svg><figcaption>On a straight-line demand curve q = a − bp, elasticity is ∞ where it meets the price axis, 1 at the midpoint, and 0 where it meets the quantity axis.</figcaption></figure>
+</div></details>
+
+<details class="q p3" id="T3-C2-15"><summary><span class="qt">Market demand (adding individual demand)</span><span class="opt">"If the demand curves of two consumers are d1(p) = 20 − 2p and d2(p) = 25 − p respectively, Find out the Market demand." (MQP-3)<br>"Method of adding two individual demand curves is called____________" (MQP-4)</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-3 (Q12), MQP-4 (Q7)<br><b>Also covers:</b> the 4-mark market demand table (MQP-1 Q28) and "Analyse the Market demand with the help of diagrams." (6 marks, MQP-5)</p>
+<span class="lbl txt">Answers · NCERT (Section 2.5)</span>
+<p><b>MQP-3:</b> Market demand = d1(p) + d2(p) = (20 − 2p) + (25 − p) = <b>45 − 3p</b><br>In full: 45 − 3p when p ≤ 10; 25 − p when 10 &lt; p ≤ 25 (consumer 1 buys nothing above Rs 10); 0 when p &gt; 25.</p>
+<p><b>QB version (NCERT example):</b> d1(p) = 10 − p, d2(p) = 15 − p, so market demand = <b>25 − 2p</b> when p ≤ 10.</p>
+<p><b>MQP-4:</b> <b>Horizontal summation</b></p>
+<p class="tip">The market demand at each price is the total of all consumers' demands at that price.</p>
+</div></details>
+
+<details class="q p3" id="T3-C2-16"><summary><span class="qt">Normal goods (one-liners)</span><span class="opt">"The demand for these goods increases as income of the consumer increases a) Inferior goods b) Normal goods c) Giffen goods d) Substitute goods" (E25-2)<br>"As income increases, the demand curve for normal goods shifts towards____________" (MQP24-1)</span><span class="meta"><b class="mk">1 mark each</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-2 (Q1), MQP24-1 (Q6)<br><b>Full answer:</b> Tier 2, T2-C2-03</p>
+<span class="lbl key">Board answer keys · E25-2 (MCQ), E26-2 (shift)</span>
+<p><b>MCQ:</b> b) Normal goods<br><b>Fill in the blank:</b> Right (E26-2 key: "With increase in income, demand curve shifts right")</p>
+</div></details>
+</section>
+
+<!-- ============ MICRO CH 1 ============ -->
+<section id="c1">
+<h2>Micro Ch 1 · Introduction<small>2-mark slot: usually Q17</small></h2>
+
+<details class="q p2" id="T3-C1-01"><summary><span class="qt">List out the basic economic activities.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q17), E25-2 (Q17), MQP-3 (Q17)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>a. Production of goods and services<br>b. Exchange<br>c. Consumption</p>
+<span class="lbl key">Board answer key · E25-2</span>
+<p>Consumption, production, distribution and exchange.</p>
+<p class="tip">NCERT lists production, exchange and consumption. That matches the E26-1 key, so it is the safer answer.</p>
+</div></details>
+
+<details class="q p2" id="T3-C1-02"><summary><span class="qt">Write the difference between Positive and Normative economics.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q17), MQP24-2 (Q17), MQP-5 (Q17)<br><b>Also asked as:</b> "Distinguish between positive and normative economics." (MQP24-2, MQP-5)<br><b>Also covers:</b> the "Positive economics" match (1 mark, MQP-2) and "What is Normative economic analysis?" (1 mark, MQP24-1)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<div class="tw"><table><tr><th>Positive Economics</th><th>Normative Economics</th></tr>
+<tr><td>1. It analyses the functioning of the mechanism</td><td>1. It evaluates the mechanism</td></tr>
+<tr><td>2. It states what it is</td><td>2. It states what it ought to be</td></tr>
+<tr><td>3. It is a scientific method of analysis</td><td>3. It is the ideal method of explanation</td></tr>
+<tr><td>4. It refuses to pass value judgements</td><td>4. It passes value judgements</td></tr></table></div>
+<span class="lbl txt">1-mark versions · NCERT</span>
+<p><b>Positive economic analysis:</b> studies how the different mechanisms function.<br><b>Normative economic analysis:</b> tries to understand whether these mechanisms are desirable or not.</p>
+</div></details>
+
+<details class="q p3" id="T3-C1-03"><summary><span class="qt">What do you mean by mixed economy? Give an example.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q17), MQP-2 (Q17)<br><b>Also covers:</b> T3-C1-05 ("In reality, all economies are ____ economies")</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p>Mixed economies are those where some important decisions are taken by the government and the economic activities are by and large conducted through the market. That means it is the economy where both the public and private sectors co-exist. Example: India.</p>
+</div></details>
+
+<details class="q p2" id="T3-C1-04"><summary><span class="qt">The scarce resources of an economy have</span><span class="opt">a) Competing usages &nbsp; b) Single usage &nbsp; c) Unlimited usages &nbsp; d) Limited usages (the option order changes between papers)</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 3× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q1), E25-3 (Q1), MQP24-3 (Q1)</p>
+<span class="lbl key">Board answer key · E26-2, E25-3</span>
+<p><b>Competing usages</b></p>
+</div></details>
+
+<details class="q p2" id="T3-C1-05"><summary><span class="qt">In reality, all economies are _____________ economies.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 3× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q6), MQP24-3 (Q6), MQP-1 (Q6)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p><b>Mixed</b> (in MQP24-3, the word list says "Mixed economies")</p>
+</div></details>
+
+<details class="q p3" id="T3-C1-06"><summary><span class="qt">Which of the following is an example of Micro Economic Study?</span><span class="opt">(a) National income &nbsp; (b) Consumer behaviour &nbsp; (c) Unemployment &nbsp; (d) Foreign trade</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP24-2 (Q1), MQP-3 (Q1)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<p><b>(b) Consumer behaviour</b></p>
+<p class="tip">Microeconomics studies the behaviour of individual economic agents (consumers and producers). National income and unemployment are aggregates, so they belong to macroeconomics.</p>
+</div></details>
+
+<details class="q p3" id="T3-C1-07"><summary><span class="qt">Traditionally, the subject matter of economics has been studied under the following broad branches.</span><span class="opt">(a) Micro and Macro Economics &nbsp; (b) Positive and Normative Economics &nbsp; (c) Deductive and Inductive &nbsp; (d) Socialistic and Capitalistic economy (MQP-5: "Market and Mixed Economy")</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP24-1 (Q1), MQP-5 (Q1)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<p><b>(a) Micro and Macro Economics</b></p>
+<p class="tip">NCERT Section 1.5: "Traditionally, the subject matter of economics has been studied under two broad branches: Microeconomics and Macroeconomics."</p>
+</div></details>
+</section>
+
+<!-- ============ MACRO CH 1 ============ -->
+<section id="m1">
+<h2>Macro Ch 1 · Introduction (Macroeconomics)<small>Mostly 1-mark questions; sometimes Q22</small></h2>
+
+<details class="q p2" id="T3-M1-01"><summary><span class="qt">What are the four factors of production? Mention their rewards.</span><span class="meta"><b class="mk">2 marks</b><span>Asked 4× counting the match item · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-1 (Q22), MQP24-3 (Q22)<br><b>Also covers:</b> the "Labour" match item (1 mark, MQP24-2 Q11c, MQP-4 Q11d)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<div class="tw"><table><tr><th>Factor of production</th><th>Reward</th></tr>
+<tr><td>Land</td><td>Rent</td></tr>
+<tr><td>Labour</td><td>Wages</td></tr>
+<tr><td>Capital</td><td>Interest</td></tr>
+<tr><td>Entrepreneur (entrepreneurship)</td><td>Profit</td></tr></table></div>
+<p class="tip">NCERT: the entrepreneur sells the output and earns revenue. Part of it is paid as rent for land, part as interest to capital and part as wages to labour. What is left is profit. "Labour" match answer: <b>Wages</b>.</p>
+</div></details>
+
+<details class="q p3" id="T3-M1-02"><summary><span class="qt">Give the meaning of Exports.</span><span class="meta"><b class="mk">1 mark</b><span>Asked 2× · 2 board exams</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-1 (Q14), E25-2 (Q14)<br><b>Also covers:</b> "Give the meaning of imports." (1 mark, MQP24-1)</p>
+<span class="lbl key">Board answer key · E26-1</span>
+<p>The domestic country may sell goods and services to the rest of the world. These are called exports.</p>
+<span class="lbl txt">Imports · NCERT</span>
+<p>The economy may also buy goods from the rest of the world. These are called imports.</p>
+</div></details>
+
+<details class="q p3" id="T3-M1-03"><summary><span class="qt">----------will be called as firms.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E25-3 (Q8), MQP24-1 (Q9)</p>
+<span class="lbl key">Board answer key · E25-3</span>
+<p><b>Production units</b></p>
+</div></details>
+
+<details class="q p3" id="T3-M1-04"><summary><span class="qt">Macroeconomics has its deep roots in _________.</span><span class="meta"><b class="mk">1 mark · Fill in the blank</b><span>Asked 2× · 1 board exam</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> E26-2 (Q9), MQP-3 (Q8)</p>
+<span class="lbl key">Board answer key · E26-2</span>
+<p><b>Microeconomics</b></p>
+</div></details>
+
+<details class="q p3" id="T3-M1-05"><summary><span class="qt">'All the labourers who are ready to work will find employment and all the factories will be working at their full capacity', this school of thought is known as</span><span class="opt">a) Modern thought &nbsp; b) Contemporary thought &nbsp; c) Classical thought &nbsp; d) Colonial thought (MQP24-1: "Neo-Classical thought")</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-2 (Q3), MQP24-1 (Q3)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<p><b>c) Classical thought</b></p>
+<p class="tip">NCERT Section 1.1: this school of thought is known as the classical tradition.</p>
+</div></details>
+
+<details class="q p3" id="T3-M1-06"><summary><span class="qt">The year of Great Depression</span><span class="opt">a) 1920 &nbsp; b) 1889 &nbsp; c) 1929 &nbsp; d) 2018 (MQP24-3: "2019")</span><span class="meta"><b class="mk">1 mark · MCQ</b><span>Asked 2× · model papers only</span></span></summary>
+<div class="ans">
+<p class="also"><b>Asked in:</b> MQP-5 (Q3), MQP24-3 (Q3)</p>
+<span class="lbl txt">Answer · NCERT</span>
+<p><b>c) 1929</b></p>
+<p class="tip">Related 1-mark fact: Keynes published <i>The General Theory of Employment, Interest and Money</i> in 1936.</p>
+</div></details>
+</section>
+
+<a class="next" href="index.html">Back to Tier 1 · 5–6 mark questions →</a>
+</main>
+<script>
+function setAll(o){document.querySelectorAll('details.q').forEach(function(d){d.open=o})}
+</script>
+</body>
+</html>
